@@ -1,0 +1,40 @@
+body {
+    font-family: FC-Subject-Rounded-Regular;
+    font-size: 20px;
+    background: linear-gradient(24245.59deg, #b3ecf9 0%, #69c4f5 28.53%,#0fadec 75.52%);
+    font-family: 'Kanit', sans-serif;
+}
+
+h1{
+    color: rgb(0, 0, 0);
+}
+fieldset, legend {
+    all: revert;
+    border-radius: 5px;
+}
+
+.bodyproposition {
+    display: flex;
+    justify-content: center;
+}
+
+.proposition {
+    display: flex;
+    font-size: 3rem;
+    justify-content: center;
+    text-align: center;
+}
+
+.selected {
+    font-size: 1.5rem;
+}
+
+@media screen and (max-width: 836px) {
+    .proposition {
+        font-size: 2rem;
+    }
+
+    .selected {
+        font-size: 1rem;
+    }
+}
